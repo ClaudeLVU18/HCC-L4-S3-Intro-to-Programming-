@@ -142,7 +142,7 @@ int main()
     
     char drink;
     cin >>drink;
-    while((drink != tolower('a'))&&(drink != tolower('b'))){
+    while((!(tolower(drink) == 'a'))&&(!(tolower(drink) == 'b'))){
          
         cout <<"Error: invalid selection.\n ";
         cout<< "\nPlease select the drink of your choice: ";
@@ -155,7 +155,7 @@ int main()
     cout<< "\nPlease select the drink type of your choice: ";
     char type;
     cin >>type;
-    while((type != tolower('a'))&&(type != tolower('b'))&&(type != towlower('c'))){
+    while((!(tolower(type) == 'a'))&&(!(tolower(type) == 'b'))&&(!(tolower(type) == 'c'))){
          
         cout <<"Error: invalid selection.\n ";
         cout<< "\nPlease select the drink type of your choice: ";
@@ -169,7 +169,7 @@ int main()
     cout<<"Y/N: ";
     char sugar;
     cin>>sugar;
-    while((sugar != tolower('y'))&&(sugar != tolower('n'))){
+    while((!(tolower(sugar) == 'y'))&&(!(tolower(sugar) == 'n'))){
          
         cout <<"Error: kindly input Y or N: ";
     
@@ -185,7 +185,7 @@ int main()
     cout<<"\nY/N: ";
     char userInput;
     cin >> userInput;
-    while((userInput != tolower('y'))&&(userInput != tolower('n'))){
+    while((!(tolower(userInput) == 'y'))&&(!(tolower(userInput) == 'n'))){
          
         cout <<"Error: kindly input Y or N: ";
     
@@ -208,7 +208,7 @@ int main()
     cout<<"\nY/N:";
     char newOrder;
     cin >> newOrder;
-    while((newOrder != tolower('y'))&&(newOrder != tolower('n'))){
+    while((!(tolower(newOrder) == 'y'))&&(!(tolower(newOrder) == 'n'))){
          
         cout <<"Error: kindly input Y or N: ";
     
