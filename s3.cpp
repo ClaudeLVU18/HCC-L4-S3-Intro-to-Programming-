@@ -201,7 +201,7 @@ int main()
         wrongOrder = !true;
         break;
     }
-    cout<< "Your change is: "<< wallet - s3price(type);
+    cout<< "Your change is: "<< wallet - s3price(type) <<" AED.";
     }
     
     cout<<"\nWould you like to make another order?";
